@@ -86,20 +86,20 @@ Partial Class frmPrincipal
         '
         Me.pbxEquipos.Location = New System.Drawing.Point(12, 240)
         Me.pbxEquipos.Name = "pbxEquipos"
-        Me.pbxEquipos.Size = New System.Drawing.Size(502, 279)
+        Me.pbxEquipos.Size = New System.Drawing.Size(507, 321)
         Me.pbxEquipos.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.pbxEquipos.TabIndex = 5
         Me.pbxEquipos.TabStop = False
         '
         'Timer1
         '
-        Me.Timer1.Interval = 1500
+        Me.Timer1.Interval = 1000
         '
         'frmPrincipal
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(526, 531)
+        Me.ClientSize = New System.Drawing.Size(531, 573)
         Me.Controls.Add(Me.pbxEquipos)
         Me.Controls.Add(Me.btnCargar)
         Me.Controls.Add(Me.Label1)
